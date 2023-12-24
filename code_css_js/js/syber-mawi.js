@@ -1,0 +1,1 @@
+document.addEventListener("contextmenu",function(e){e.preventDefault()}),document.addEventListener("keydown",function(e){!e.ctrlKey&&!e.metaKey||"s"!==e.key&&"S"!==e.key||e.preventDefault(),!e.ctrlKey&&!e.metaKey||!e.shiftKey||"i"!==e.key&&"I"!==e.key||e.preventDefault()});
